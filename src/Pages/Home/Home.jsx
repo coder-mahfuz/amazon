@@ -1,11 +1,14 @@
-import React from 'react';
-import HomeCarousel from './HomeCarousel';
-
+import React from "react";
+import FirstGrid from "./FirstGrid";
+import HomeCarousel from "./HomeCarousel";
 
 function Home() {
   return (
-    < HomeCarousel />
-  )
+    <>
+      <HomeCarousel />
+      <FirstGrid />
+    </>
+  );
 }
 
-export default Home
+export default Home;

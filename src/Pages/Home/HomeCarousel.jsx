@@ -4,7 +4,11 @@ import Carousel from "react-bootstrap/Carousel";
 
 function HomeCarousel() {
   return (
-    <Carousel indicators={false} nextLabel="" prevLabel="" interval={500}>
+    <Carousel
+      indicators={false} nextLabel="" prevLabel="" interval={5000}
+      fade
+
+    >
       <Carousel.Item>
         <img
           className="d-block w-100"
